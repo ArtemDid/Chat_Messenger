@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище ChatMessengerModelContainer" CdmEntityContainer="ChatMessengerEntities">
+    <FunctionImportMapping FunctionImportName="stp_UserAdd" FunctionName="Хранилище ChatMessengerModel.stp_UserAdd" />
+    <FunctionImportMapping FunctionImportName="stp_UserById" FunctionName="Хранилище ChatMessengerModel.stp_UserById">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ChatMessengerModel.stp_UserById_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Login_" ColumnName="Login_" />
+          <ScalarProperty Name="Password_" ColumnName="Password_" />
+          <ScalarProperty Name="Role_" ColumnName="Role_" />
+          <ScalarProperty Name="Ava" ColumnName="Ava" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="stp_UserByLogin" FunctionName="Хранилище ChatMessengerModel.stp_UserByLogin">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ChatMessengerModel.stp_UserByLogin_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Login_" ColumnName="Login_" />
+          <ScalarProperty Name="Password_" ColumnName="Password_" />
+          <ScalarProperty Name="Role_" ColumnName="Role_" />
+          <ScalarProperty Name="Ava" ColumnName="Ava" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

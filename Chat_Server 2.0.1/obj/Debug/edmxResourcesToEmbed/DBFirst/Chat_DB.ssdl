@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище ChatMessengerModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <Function Name="stp_UserAdd" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="FirstName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Login_" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Password_" Type="nvarchar" Mode="In" />
+    <Parameter Name="Role_" Type="int" Mode="In" />
+    <Parameter Name="Ava" Type="int" Mode="In" />
+    <Parameter Name="UserID" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="stp_UserById" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="stp_UserByLogin" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserLogin" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="UserPassword" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <EntityContainer Name="Хранилище ChatMessengerModelContainer" />
+</Schema>
