@@ -1,0 +1,12 @@
+D:\Новая папка\Тёма\Chat_Server\Chat_Server\bin\Debug\Chat_Server.exe.config
+D:\Новая папка\Тёма\Chat_Server\Chat_Server\bin\Debug\Chat_Server.exe
+D:\Новая папка\Тёма\Chat_Server\Chat_Server\bin\Debug\Chat_Server.pdb
+D:\Новая папка\Тёма\Chat_Server\Chat_Server\bin\Debug\EntityFramework.dll
+D:\Новая папка\Тёма\Chat_Server\Chat_Server\bin\Debug\EntityFramework.SqlServer.dll
+D:\Новая папка\Тёма\Chat_Server\Chat_Server\bin\Debug\EntityFramework.xml
+D:\Новая папка\Тёма\Chat_Server\Chat_Server\bin\Debug\EntityFramework.SqlServer.xml
+D:\Новая папка\Тёма\Chat_Server\Chat_Server\obj\Debug\Chat_Server.csprojAssemblyReference.cache
+D:\Новая папка\Тёма\Chat_Server\Chat_Server\obj\Debug\Chat_Server.csproj.CoreCompileInputs.cache
+D:\Новая папка\Тёма\Chat_Server\Chat_Server\obj\Debug\Chat_Server.csproj.CopyComplete
+D:\Новая папка\Тёма\Chat_Server\Chat_Server\obj\Debug\Chat_Server.exe
+D:\Новая папка\Тёма\Chat_Server\Chat_Server\obj\Debug\Chat_Server.pdb
